@@ -1,5 +1,3 @@
-# Clases 
-
 class Address:
     def __init__(self, street, city, country):
         self.street = street
@@ -8,8 +6,6 @@ class Address:
 
     def __str__(self):
         return f"{self.street}, {self.city}, {self.country}"
-
-
 
 class User:
     def __init__(self, name, email, age, height, is_student, birthday, address):
